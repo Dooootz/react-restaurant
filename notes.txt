@@ -3,3 +3,8 @@
 containers are essentially small components within main components 
 this cleans up our components file - & - accelerates workflow 
 
+assests folder holds iamges & video media - & - exported to the constants folder to be stored in an object
+
+constants folder imports images from the assests folder & stores their value in an object
+
+each component OR container has their own seperate CSS files. - & - organizes our code  
