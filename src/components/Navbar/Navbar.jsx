@@ -30,8 +30,9 @@ const Navbar = () => {
         <a href="/" className='p__opensans'>Book Table</a>
       </div>
       <div className='app__navbar-smallscreen'>
-        {/* import react-icons component */}
+        {/* import react-icons component            onclick function displays toggle menu = true*/}
         <GiHamburgerMenu color='#fff' fontSize={27} onClick={() => setToggleMenu(true)}/>
+        {/* toggle is true... then display toggle */}
         {toggleMenu && (
           <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
             {/* import react-icons component */}

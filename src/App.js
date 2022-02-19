@@ -1,9 +1,10 @@
 import React from 'react';
-
+// destructure container folder & import these functions
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
 import { Navbar } from './components';
 import './App.css';
 
+// importing necessary components 
 const App = () => (
   <div>
     <Navbar />
@@ -19,4 +20,5 @@ const App = () => (
   </div>
 );
 
+// export app to index.js in the root 
 export default App;
