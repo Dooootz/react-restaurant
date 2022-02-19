@@ -6,12 +6,15 @@ import images from '../../constants/images';
 import './Navbar.css';
 
 const Navbar = () => {
+
+  // use state hook tracks toggle menu state - : - set to false = menu hidden
   const [ toggleMenu, setToggleMenu ] = React.useState(false);
 
 
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
+        {/* destructure images object & find value */}
         <img src={images.gericht} alt="app logo" />
       </div>
       <ul className='app__navbar-links'>
@@ -27,10 +30,11 @@ const Navbar = () => {
         <a href="/" className='p__opensans'>Book Table</a>
       </div>
       <div className='app__navbar-smallscreen'>
+        {/* import react-icons component */}
         <GiHamburgerMenu color='#fff' fontSize={27} onClick={() => setToggleMenu(true)}/>
-        
         {toggleMenu && (
           <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
+            {/* import react-icons component */}
           <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)}/>   
           <ul className='app__navbar-smallscreen-links'>
             <li className='p__opensans'><a href="#home">Home</a></li>

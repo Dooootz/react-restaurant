@@ -1,0 +1,5 @@
+--- NOTES ---
+
+containers are essentially small components within main components 
+this cleans up our components file - & - accelerates workflow 
+
