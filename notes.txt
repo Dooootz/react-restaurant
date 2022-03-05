@@ -1,6 +1,6 @@
 --- NOTES ---
 
-containers are essentially small components within main components 
+containers are essentially smaller components within the main components 
 this cleans up our components file - & - accelerates workflow 
 
 assests folder holds iamges & video media - & - exported to the constants folder to be stored in an object

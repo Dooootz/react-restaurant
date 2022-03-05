@@ -1,4 +1,6 @@
+// import images to use within our data objects
 import images from './images';
+
 
 const wines = [
   {
@@ -56,6 +58,7 @@ const cocktails = [
   },
 ];
 
+// pulls image & stores in object
 const awards = [
   {
     imgUrl: images.award02,
@@ -79,4 +82,5 @@ const awards = [
   },
 ];
 
+// export to use elsewhere
 export default { wines, cocktails, awards };

@@ -1,5 +1,5 @@
 import React from 'react';
-// destructure container folder & import these functions
+// destructure container folder & import these functional components
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
 import { Navbar } from './components';
 import './App.css';
