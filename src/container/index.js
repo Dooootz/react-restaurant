@@ -1,3 +1,4 @@
+// index files are the central hub where code connects & flows to other folders 
 import AboutUs from './AboutUs/AboutUs';
 import Chef from './Chef/Chef';
 import FindUs from './Findus/FindUs';
